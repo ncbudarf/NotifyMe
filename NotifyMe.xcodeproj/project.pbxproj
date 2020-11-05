@@ -15,6 +15,7 @@
 		1F5C708725549B8B0045187B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5C708525549B8B0045187B /* LaunchScreen.storyboard */; };
 		1F5C709225549B8B0045187B /* NotifyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C709125549B8B0045187B /* NotifyMeTests.swift */; };
 		1F5C709D25549B8B0045187B /* NotifyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C709C25549B8B0045187B /* NotifyMeUITests.swift */; };
+		1F5C70AB25549BB60045187B /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C70AA25549BB60045187B /* LocalNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F5C709825549B8B0045187B /* NotifyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5C709C25549B8B0045187B /* NotifyMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyMeUITests.swift; sourceTree = "<group>"; };
 		1F5C709E25549B8B0045187B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5C70AA25549BB60045187B /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1F5C707A25549B890045187B /* AppDelegate.swift */,
 				1F5C707C25549B890045187B /* SceneDelegate.swift */,
 				1F5C707E25549B890045187B /* ContentView.swift */,
+				1F5C70AA25549BB60045187B /* LocalNotification.swift */,
 				1F5C708025549B8A0045187B /* Assets.xcassets */,
 				1F5C708525549B8B0045187B /* LaunchScreen.storyboard */,
 				1F5C708825549B8B0045187B /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5C70AB25549BB60045187B /* LocalNotification.swift in Sources */,
 				1F5C707B25549B890045187B /* AppDelegate.swift in Sources */,
 				1F5C707D25549B890045187B /* SceneDelegate.swift in Sources */,
 				1F5C707F25549B890045187B /* ContentView.swift in Sources */,

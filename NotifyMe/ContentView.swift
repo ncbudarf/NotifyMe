@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Button(action: {
+			LocalNotification().scheduleNotification(notificationType: "Quick Timer",
+													 uniqueIdentifier: "Local Notification",
+													 numberOfSeconds: 5.0)
+		}) {
+			Text("Start Timer")
+		}
     }
 }
 
