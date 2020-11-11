@@ -9,11 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+	var viewModel: ContentViewModel = ContentViewModel()
+
     var body: some View {
         Button(action: {
-			LocalNotification().scheduleNotification(notificationType: "Quick Timer",
-													 uniqueIdentifier: "Local Notification",
-													 numberOfSeconds: 5.0)
+			self.viewModel.triggerNotification()
 		}) {
 			Text("Start Timer")
 		}
